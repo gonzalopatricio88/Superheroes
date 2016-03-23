@@ -1,6 +1,15 @@
-<% content_for :head do %>
-  <%= javascript_include_tag 'basic_usage2', 'data-turbolinks-track' => true %>
-<% end %>
+
+<h1>Vote!!!</h1>
 
 
-<h1>This looks like a job for Superman</h1>
+<%= link_to "Batman", pages_batman_path  %>
+<div>
+  <%= image_tag 'batman', width: '50%', align: 'left' %>
+
+</div>
+
+<%= link_to "Superman", pages_superman_path  %>
+<div>
+  <%= image_tag 'superman', width: '50%',align: 'right'%>
+</div>
+

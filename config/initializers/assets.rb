@@ -11,3 +11,4 @@ Rails.application.config.assets.version = '1.0'
 # Rails.application.config.assets.precompile += %w( search.js )
 Rails.application.config.assets.precompile += %w( basic_usage.js )
 Rails.application.config.assets.precompile += %w( basic_usage2.js )
+Rails.application.config.assets.precompile += %w( nothing.js )
